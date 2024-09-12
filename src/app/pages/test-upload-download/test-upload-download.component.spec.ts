@@ -8,10 +8,10 @@ describe('TestUploadDownloadComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TestUploadDownloadComponent]
+      declarations: [ TestUploadDownloadComponent ]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(TestUploadDownloadComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
